@@ -4,7 +4,7 @@ import Keys._
 object Dependencies {
 
   lazy val version = new {
-      val scalaTest       = "3.0.0"
+      val scalaTest       = "3.0.4"
       val scalaCheck      = "1.13.4"
   }
 
