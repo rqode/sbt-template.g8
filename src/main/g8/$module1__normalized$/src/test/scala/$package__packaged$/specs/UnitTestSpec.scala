@@ -1,4 +1,4 @@
-package specs
+package $package$.specs
 
 import org.scalatest._
 
