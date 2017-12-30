@@ -16,3 +16,7 @@ lazy val $appname$ = (project in file("$appname$")).
   settings(Settings.$appname$Settings: _*).
   dependsOn($module1$, $module2$).
   configs(Test)
+
+// enable packaging by sbt-native-packager
+//enablePlugins(JavaAppPackaging)
+
